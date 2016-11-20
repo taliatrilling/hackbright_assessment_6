@@ -1,0 +1,66 @@
+Runtime:
+
+1. In the example given, the workload would be represented by O(n), where n is the number of animal crackers in the box, as in the worst case scenario, you would have to check every single cracker to see if it is an elephant, and either only the last cracker checked (or none at all) would end up being an elephant. 
+
+2. Ordered, from most to least efficient:
+	- O(1)
+	- O(log n)
+	- O(n)
+	- O(n log n)
+	- O(n^2)
+	- O(2^n)
+
+Stacks & Queues:
+
+1. See below:
+	1. stack
+	2. queue
+	3. stack
+
+2. Serving customers at a coffee shop, the Hackbright help queue
+
+3. Washing dirty dishes in a sink, grading a literal stack of student papers
+
+Linked Lists:
+
+1. For the example:
+	- There are three nodes: the apple node (represented by the first rectangle on the second row, with the with the data "apple" and a next pointing to berry), the berry node (represented by the second rectangle on the second row, with the data "berry" and a next pointing to cherry), and the cherry node (represented by the third rectangle on the second row, with the data "cherry" and a next pointing to None)
+	- As mentioned above, the data for the apple node is the string "apple," the data for the berry node is the string "berry" and the data for the cherry node is the string "cherry"
+	- The head for this linked list is the apple node
+	- The tail for this linked list is the cherry node
+
+2. A doubly linked list has not only a next, which points to the next node in the list, but also a "prev," which points to the preceding node in the list. 
+
+3. Keeping track of the tail makes appending faster because it means that instead of having to traverse the entire list to find the last existing node, which is pointing to None, we can from the start know what the last node is, know to connect it to our new node, rebind its "next" to the new node, and then reset the tail to our new node, allowing the process to occur again if needed. 
+
+Trees:
+
+1. A BFS algorithm would visit, in this order:
+	1. food
+	2. Italian
+	3. Indian
+	4. Mexican
+	5. lasangna 
+	6. pizza
+	7. tikka masala
+	8. saag
+	9. burrito (and then stop, because that's what we were looking for)
+
+2. A DFS algorithm would visit, in this order:
+	1. food
+	2. Mexican
+	3. burrito
+	4. tacos
+	5. enchiladas
+	6. Indian
+	7. tikka masala
+	8. saag
+	9. Italian
+	10. pizza
+	11. Sicilian
+	12. New-York style
+	13. Chicago style (and then stop)
+
+3. A binary search tree is different from a normal tree in two major ways--a node never has more than 2 children, and nodes are arranged by a certain consistent, unambiguous rule, that therefore makes searching the data more efficient/speedy.
+
+
