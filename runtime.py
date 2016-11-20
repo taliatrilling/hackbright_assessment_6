@@ -80,7 +80,8 @@ def sum_zero_3(numbers):
 
     Put runtime here:
     -----------------
-    [ o(n^3) I think? bigger than o(n^2) but smaller than o(n^2)...my head hurts ]
+    [ potentially o(n^2 * log n)? none of the exact runtimes we learned about seem to fit, and the first part is definitely o(n^2) but the if
+    statement complicates things, and we need to do another operation that is more costly than o(1) but less costly than o(n)... ]
 
     """
 
